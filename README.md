@@ -11,8 +11,15 @@ This Python script is for a voice interface chatbot named Jervis. It uses OpenAI
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49094051/227788148-a8ff8e06-86a4-41a6-aa53-8b7d6855360c.png"/>
-  <span style=color:grey> <i>image by MidJourney AI </i> </span>
+  <span style=color:grey> <i>Image by MidJourney AI</i> </span>
 </p>
+
+![Image by MidJourney AI](https://user-images.githubusercontent.com/49094051/227788148-a8ff8e06-86a4-41a6-aa53-8b7d6855360c.png)
+*Image by MidJourney AI*
+
+https://github.com/gia-guar/JARVIS-ChatGPT/tree/main
+
+![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/jervis-ChatGPT?style=for-the-badge)
 
 The script supports two types of voices: the local system's voice and a voice from ElevenLabs. The user can specify the voice, speech rate, and volume through command-line arguments. The script also supports sending the conversation via email and saving the conversation to an MP3 file.
 
@@ -22,5 +29,5 @@ The script logs errors and exceptions to a file and also logs the conversation h
 The script also includes a function to send emails with an optional attachment, which can be used to send the conversation history as an MP3 file.
 The script starts with a conversation loop where it listens for user input, processes the input, generates a response, and speaks the response. The conversation continues until the user says "goodbye".
 
-#
+
 
