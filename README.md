@@ -17,5 +17,4 @@ The script starts with a conversation loop where it listens for user input, proc
 ![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/jervis-ChatGPT?style=flat-square)
 
 ![GitHub issues](https://img.shields.io/github/issues-raw/davidtkeane/jervis-ChatGPT?style=flat-square)
-Updated topics
-Updated topics
+
