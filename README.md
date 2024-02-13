@@ -14,6 +14,6 @@ The script starts with a conversation loop where it listens for user input, proc
 
 ![PowerShell](https://img.shields.io/badge/-PowerShell-black?style=flat-square&logo=powershell)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/jervis?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/jervis-ChatGPT?style=flat-square)
 
-![GitHub issues](https://img.shields.io/github/issues-raw/davidtkeane/jervis?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues-raw/davidtkeane/jervis-ChatGPT?style=flat-square)
