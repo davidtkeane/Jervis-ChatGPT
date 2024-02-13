@@ -1,0 +1,9 @@
+# import the necessary packages 
+pyttsx3
+speech_recognition
+openai
+requests
+pymongo
+pydub
+pyaudio
+wave
