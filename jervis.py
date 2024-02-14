@@ -5,10 +5,22 @@
 # Version: 2.0
 
 # Description: This is a simple chatbot that uses the OpenAI gpt-3.5-turbo-instruct model to respond to user input.
-# This is main.py file for the ChatGPT Voice Interface program.
+# This is jervis.py file for the ChatGPT Voice Interface program.
 
 # Installation instructions:
+
 # Read the README.md file for more information on how to use the program.
+
+# 3 ways to install the required libraries to run the program:
+
+## Option 1: Install using the requirements.txt file for the required libraries and versions to run the program. 
+pip install -r requirements.txt
+
+## Option 2: Run the install_jervis.bat file to install the required libraries and versions to run the program. 
+install_jervis.bat
+
+## Option 3: Run the install_jervis.py file to install the required libraries and versions to run the program. 
+python install_jervis.py
 
 # Prerequisites:
 
@@ -23,11 +35,7 @@
 # Once all the test files are working and all API info entered into the .env file, we are ready to rumble.
 
 
-### 3 ways to install the required libraries and versions to run the program:
 
-#### Option 1: Install the requirements.txt file for the required libraries and versions to run the program. pip install -r requirements.txt
-#### Option 2: Run the install_jervis.bat file to install the required libraries and versions to run the program. install_jervis.bat
-#### Option 3: Run the install_jervis.py file to install the required libraries and versions to run the program. python install_jervis.py
 
 # Read the other instructions in the code for more information on how to use the program in the instructions folder.
 
