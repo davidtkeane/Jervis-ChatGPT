@@ -100,6 +100,7 @@ The script continues with MongoDB integration for storing conversation logs, mod
 6. install_jervis.bat
 
 ## 🚀 Prerequisites Steps
+
 7. Now sign-up or sign back into Prerequisites.
 8. Once you have all the required keys, then move on to testing them with the scripts i made in the `<b>`single_python_setup_files_for_project `</b>` folder.
 9. Go into the folder `<b>`single_python_setup_files_for_project `</b>` and go through each one to test your connection is established and working, if you have your API keys, then you don't have to do this.
@@ -107,7 +108,7 @@ The script continues with MongoDB integration for storing conversation logs, mod
 11. Once you have tested all the files, and added the keys and stuff into the .env-clone file.
 12. Copy the .env-clone file into the main folder `<b>jervis_ChatGPT</b>` then we are ready to run the jervis.py
 13. Once all scripts have been run, and files have appeared in the test folder for conformation and you have filled up the .env-clone.
-14. Copy this file to the main jervis-ChatGPT folder with the file jervis.py, and rename .env-clone to .env
+14. Copy this file .env-clone to the main jervis-ChatGPT folder with the file jervis.py, and rename .env-clone to .env
 15. python jervis.py ( add the switches )
 
 16. I use <b>python jervis.py --voice elevenlabs --save</b> command to record the conversation and also to email it to my gmail account.
