@@ -77,6 +77,7 @@ The script continues with MongoDB integration for storing conversation logs, mod
 
 ### 🏀 Signup to Gmail, Elevenlabs, MongDB:
 
+
 <p>There are instructions in the <b>help_files</b> folder and the file called <b># Jervis Install instructions in more detail.md</b> will have more detailed instructions on how to connect to gmail and mongodb</p>
 
 <p>You will have to sign up to:</p>

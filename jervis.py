@@ -10,17 +10,29 @@
 # Installation instructions:
 
 # Read the README.md file for more information on how to use the program.
+# You will have to sign up to Prerequisites for keys, ID@s and API keys, see below and README.txt.
+# Read the extra files in the help_files folder for helps on connecting to MongoDB and Gmail.
+# Read the file in the help_files folder called singel_python_setup_files_for_project.md. 
+    # This file has extra setup information on the different parts from Mongodb, Gmail, Elevenlabs.
+    # I added as much details as I can to help setting up each section as easy as possible. 
+
+# Read the other instructions in the code for more information on how to use the program in the instructions folder.
+
+# Files required to run the program located in help_files_for_project folder.
+# Read the help_files_for_project folder for the required files to run the program.
+# Read the .env file for the environment variables required to run the program.
+# Read the requirements.txt file inside the instructions folder to install the required libraries and versions to run the program.
+# There is a setup guide for Gmail and MongoDB Atlas in the instructions folder.
+# There is a file called jervis_project_creation_stages.md that outlines the stages of the project creation. Use this as a guide to create your own project.
+# There is a file called instructions_help_files_for_project_explained.md that explains the help files for the project in the folder help_files_for_project.
 
 # 3 ways to install the required libraries to run the program:
-
-## Option 1: Install using the requirements.txt file for the required libraries and versions to run the program. 
-pip install -r requirements.txt
-
-## Option 2: Run the install_jervis.bat file to install the required libraries and versions to run the program. 
-install_jervis.bat
-
-## Option 3: Run the install_jervis.py file to install the required libraries and versions to run the program. 
-python install_jervis.py
+# Option 1: Install using the requirements.txt file for the required libraries and versions to run the program. 
+# pip install -r requirements.txt
+# Option 2: Run the install_jervis.bat file to install the required libraries and versions to run the program. 
+# install_jervis.bat
+# Option 3: Run the install_jervis.py file to install the required libraries and versions to run the program. 
+# python install_jervis.py
 
 # Prerequisites:
 
@@ -33,19 +45,6 @@ python install_jervis.py
 # Just replace Your with your info. Leave the structure the way it is, just replace the Your sections.
 # In the test files, you will have to enter the API''s manually, as there is no .env key in this folder and the scripts do not look for this file to check for private information.
 # Once all the test files are working and all API info entered into the .env file, we are ready to rumble.
-
-
-
-
-# Read the other instructions in the code for more information on how to use the program in the instructions folder.
-
-# Files required to run the program located in help_files_for_project folder.
-# Read the help_files_for_project folder for the required files to run the program.
-# Read the .env file for the environment variables required to run the program.
-# Read the requirements.txt file inside the instructions folder to install the required libraries and versions to run the program.
-# There is a setup guide for Gmail and MongoDB Atlas in the instructions folder.
-# There is a file called jervis_project_creation_stages.md that outlines the stages of the project creation. Use this as a guide to create your own project.
-# There is a file called instructions_help_files_for_project_explained.md that explains the help files for the project in the folder help_files_for_project.
 
 # Description:
 
