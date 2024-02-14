@@ -46,13 +46,13 @@ The script continues with MongoDB integration for storing conversation logs, mod
 
 ## ⚾ Installation Help Files:
 
-<p>1. Read the files in the <b>help_files</b> folder before hammering away to make this script work! Use the files in the <b>singel_python_setup_files_for_project</b> and use these one at a time to get working first, once all files work and return 'connection established' then you are ready to go, remember to add all keys to the .env-clone file</p>
+<p>1. Read the files in the <b>help_files</b> folder before hammering away to make this script work! Use the files in the <b>single_python_setup_files_for_project</b> and use these one at a time to get working first, once all files work and return 'connection established' then you are ready to go, remember to add all keys to the .env-clone file</p>
 
 <p>2. This is the **README.md** file to provide more information on how to use the program. You will have to sign up to Prerequisites for keys, ID's and API keys, see below for more details.</p>
 
-<p>3. Read the extra help files in the **help_files** folder for help with connecting to MongoDB and Gmail. The file **singel_python_setup_files_for_project.md** has extra setup information on the different parts from Mongodb, Gmail, Elevenlabs, it can help you to connect to each service and test connection to Gmail, Elevenlabs and MongoDB if you have the correct API keys.</p>
+<p>3. Read the extra help files in the **help_files** folder for help with connecting to MongoDB and Gmail. The file **single_python_setup_files_for_project.md** has extra setup information on the different parts from Mongodb, Gmail, Elevenlabs, it can help you to connect to each service and test connection to Gmail, Elevenlabs and MongoDB if you have the correct API keys.</p>
 
-<p>4. Add the keys to the .env-clone file inside the folder **singel_python_setup_files_for_project** and leave the structure as it is.</p>
+<p>4. Add the keys to the .env-clone file inside the folder **single_python_setup_files_for_project** and leave the structure as it is.</p>
 
 <p>Read the other instructions in the <b>help_files</b> for more information on how to use the program.</p>
 
