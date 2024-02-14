@@ -1,5 +1,7 @@
 # 📝 Jervis-ChatGPT with ElevenLabs and MongoDB
 
+<h1 align="center">Hi, guys! <img src="https://github.com/FujiwaraChoki/FujiwaraChoki/blob/main/assets/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif" width="28px" alt="👋"></h1>
+
 This Python script is for a voice interface chatbot named Jervis. It uses OpenAI's GPT-3.5-turbo-instruct model to respond to user input. The user can interact with the chatbot through speech, and the chatbot responds with text and/or speech. The conversation can be saved as an MP3 file and emailed to a specified address. The conversation is also logged to a MongoDB database.
 
 ![PowerShell](https://img.shields.io/badge/-PowerShell-black?style=flat-square&logo=powershell)
@@ -13,7 +15,6 @@ This Python script is for a voice interface chatbot named Jervis. It uses OpenAI
 [![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/davidtkeane)
 [![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/davidtkeane)
 
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49094051/227788148-a8ff8e06-86a4-41a6-aa53-8b7d6855360c.png"/>
   <br>
@@ -24,21 +25,14 @@ This Python script is for a voice interface chatbot named Jervis. It uses OpenAI
   This is another version of Jervis called Jarvis by Gia-Guar, similar but a little different
 </p>
 
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/jervis-ChatGPT?style=for-the-badge)
 
-
-<h1 align="center">Hi, guys! <img src="https://github.com/FujiwaraChoki/FujiwaraChoki/blob/main/assets/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif" width="28px" alt="👋"></h1>
-
 <p align="center">
-    <b>Welcome to my page!</b><br><br>
+    <b>Welcome to Jervis AI!</b><br><br>
     <i>
-        I'm FujiwaraChoki (internet name), and I'm currently learning DL, Automation, Ruby and C++ (and C).<br>
-        Open to collaborating on interesting and innovative projects.<br>
+        I'm Rangersmyth (internet name), and I'm currently learning Python and Bash coding.<br>
+        	<br>
     </i><br>
-    <h2 align="center">Request a Service</h2>
-    <p align="center">I build stuff for the web or your local computer, just send me an <a href="mailto:fujicodes@proton.me">E-Mail</a> to see how I can help you.</p><br />
-</p>
 
 <p align="center">
   <img src="https://count.getloli.com/get/@fujiwarachoki?theme=gelbooru" />
