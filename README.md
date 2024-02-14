@@ -8,10 +8,10 @@ This Python script is for a voice interface chatbot named Jervis. It uses OpenAI
 ![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/jervis-ChatGPT?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues-raw/davidtkeane/jervis-ChatGPT?style=flat-square)
 
-### Languages
+Languages
 [![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/davidtkeane)
 
-### OS
+OS
 [![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/davidtkeane)
 [![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/davidtkeane)
 
@@ -133,10 +133,13 @@ The script continues with MongoDB integration for storing conversation logs, mod
 1. Clone this repository to your local machine using `git clone https://github.com/davidtkeane/Jervis-ChatGPT.git`
 2. Go to the folder you have the github project saved and enter it.
 3. Next we install the modules for the script to work.
-4. Install the modules pip install -m requirements.txt
-5. python install_jervis.py
-6. install_jervis.bat
-7. Now sign-up or sign back into Prerequisites.
+
+4. Install the modules
+   pip install -m requirements.txt (This will install all the modules needed to run the scripts)
+   or
+   python install_jervis.py (This version will also install the requirements and also checks for other programs like VS-Code and PowerShell is installed, and an option to upgrade)
+
+5. Now sign-up or sign back into Prerequisites.
 
 ## 🚀 Prerequisites Steps
 
