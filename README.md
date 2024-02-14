@@ -158,20 +158,26 @@ Command Examples:
 
 <div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;">
   <p><b>Command:</b></p>
+  <pre><code>python jervis.py --voice elevenlabs --save</code></pre>
+  <p><b>Description:</b> This will use the ElevenLabs voice, it will save the conversation to an MP3 file, and will email the conversation to a specified email address.</p>
+</div>
+
+<div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;">
+  <p><b>Command:</b></p>
+  <pre><code>python jervis.py --voice elevenlabs --save --email-n</code></pre>
+  <p><b>Description:</b> This will use the ElevenLabs voice, save the conversation to an MP3 file, but won't email the conversation to a specified email address.</p>
+</div>
+
+<div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;">
+  <p><b>Command:</b></p>
   <pre><code>python jervis.py --voice local --save</code></pre>
-  <p><b>Description:</b> This will use the local computer's voice, save the conversation to an MP3 file, and email the conversation to a specified email address.</p>
+  <p><b>Description:</b> This will use the local computer's voice, this will save the conversation to an MP3 file, and email the conversation to a specified email address.</p>
 </div>
 
 <div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;">
   <p><b>Command:</b></p>
-  <pre><code>python jervis.py --voice local</code></pre>
-  <p><b>Description:</b> This will use the local computer's voice, and will save the conversation to an MP3 file, and will email the conversation to a specified email address.</p>
-</div>
-
-<div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;">
-  <p><b>Command:</b></p>
-  <pre><code>python jervis.py --voice elevenlabs</code></pre>
-  <p><b>Description:</b> This will use the ElevenLabs voice, won't save the conversation to an MP3 file, and won't email.</p>
+  <pre><code>python jervis.py --voice local --save --email-n</code></pre>
+  <p><b>Description:</b> This will use the local computer's voice, save the conversation to an MP3 file, but won't email the conversation to a specified email address.</p>
 </div>
 
 <div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;">
