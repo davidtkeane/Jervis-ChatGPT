@@ -35,7 +35,7 @@ This Python script is for a voice interface chatbot named Jervis. It uses OpenAI
     </i><br>
 
 <p align="center">
-  <img src="https://count.getloli.com/get/@fujiwarachoki?theme=gelbooru" />
+  <img src="https://count.getloli.com/get/@rangersmyth?theme=gelbooru" />
 </p>
 
 <div align="center">
