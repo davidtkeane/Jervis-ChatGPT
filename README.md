@@ -105,7 +105,6 @@ The script continues with MongoDB integration for storing conversation logs, mod
 11. Once you have tested all the files, and added the keys and stuff into the .env file.
 12. Copy the .env file into the main folder `<b>jervis_ChatGPT</b>` then we are ready to run the jervis.py
 
-
 # 📖 Usage of --switches
 
 ## Examples:
@@ -151,15 +150,12 @@ The script continues with MongoDB integration for storing conversation logs, mod
   </tr>
 </table>
 
+<h2>Command Examples:</h2>
 
-## Examples:
-
-"python main.py --voice elevenlabs" or "python main.py --voice local --save --email-n" This will save the conversation to an MP3 file and won't email the conversation to a specified email address.
-
-"python main.py --voice elevenlabs" or "python main.py --voice local --save" This will use the local computers voice and save the conversation to an MP3 file and email the conversation to a specified email address.
-
-"python main.py --voice elevenlabs" or "python main.py --voice local" This will use the local computers voice and won't save the conversation to an MP3 file and will email the conversation to a specified email address.
-
-"python main.py --voice elevenlabs" or "python main.py --voice elevenlabs" This will use the ElevenLabs voice and won't save the conversation to an MP3 file and will email the conversation to a specified email address.
-
-"python main.py --help" This will display the help message.
+<ul>
+  <li><code>python main.py --voice elevenlabs</code> or <code>python main.py --voice local --save --email-n</code> - This will save the conversation to an MP3 file and won't email the conversation to a specified email address.</li>
+  <li><code>python main.py --voice elevenlabs</code> or <code>python main.py --voice local --save</code> - This will use the local computers voice and save the conversation to an MP3 file and email the conversation to a specified email address.</li>
+  <li><code>python main.py --voice elevenlabs</code> or <code>python main.py --voice local</code> - This will use the local computers voice and won't save the conversation to an MP3 file and will email the conversation to a specified email address.</li>
+  <li><code>python main.py --voice elevenlabs</code> or <code>python main.py --voice elevenlabs</code> - This will use the ElevenLabs voice and won't save the conversation to an MP3 file and will email the conversation to a specified email address.</li>
+  <li><code>python main.py --help</code> - This will display the help message.</li>
+</ul>
