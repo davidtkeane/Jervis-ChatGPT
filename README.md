@@ -110,16 +110,47 @@ The script continues with MongoDB integration for storing conversation logs, mod
 
 ## Examples:
 
---welcome: Show welcome message
---voice: Voice to use ("local" or "elevenlabs")
---rate: Speech rate (words per minute)
---volume: Speech volume (0.0 to 1.0)
---save: Save conversation to an MP3 file
---email-n: Do not email the conversation
---help: Show help message
---version: Show version message
+<h2>Command Switches:</h2>
 
-# 📚 Available Commands
+<table>
+  <tr>
+    <th>Switch</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>--welcome</td>
+    <td>Show welcome message</td>
+  </tr>
+  <tr>
+    <td>--voice</td>
+    <td>Voice to use ("local" or "elevenlabs")</td>
+  </tr>
+  <tr>
+    <td>--rate</td>
+    <td>Speech rate (words per minute)</td>
+  </tr>
+  <tr>
+    <td>--volume</td>
+    <td>Speech volume (0.0 to 1.0)</td>
+  </tr>
+  <tr>
+    <td>--save</td>
+    <td>Save conversation to an MP3 file</td>
+  </tr>
+  <tr>
+    <td>--email-n</td>
+    <td>Do not email the conversation</td>
+  </tr>
+  <tr>
+    <td>--help</td>
+    <td>Show help message</td>
+  </tr>
+  <tr>
+    <td>--version</td>
+    <td>Show version message</td>
+  </tr>
+</table>
+
 
 ## Examples:
 
