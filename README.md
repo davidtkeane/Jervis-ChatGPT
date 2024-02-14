@@ -38,7 +38,7 @@ The script initializes environment variables, sets up logging, and configures a 
 
 The script continues with MongoDB integration for storing conversation logs, modifying the `send_email` function to use environment variables for email credentials and to handle attachments. It then enters a conversation loop, using speech recognition to convert user speech to text and processing it. The script handles various commands and exceptions, including a 'goodbye' command to end the conversation. It also includes error handling and logging, with the capability to test error logging by raising an exception.
 
-🆘 Help
+# 🆘 Help
 
 <h2>Installation instructions:</h2>
 
