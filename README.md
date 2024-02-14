@@ -92,12 +92,14 @@ The script continues with MongoDB integration for storing conversation logs, mod
 
 # 🚀 Installation Steps
 
-1. Clone this repository to your local machine using `git clone <repo-link>`.
+1. Clone this repository to your local machine using `git clone https://github.com/davidtkeane/Jervis-ChatGPT.git`
 2. Go to the folder you have the github project saved and enter it.
 3. Next we install the modules for the script to work.
 4. Install the modules pip install -m requirements.txt
 5. python install_jervis.py
 6. install_jervis.bat
+
+## 🚀 Prerequisites Steps
 7. Now sign-up or sign back into Prerequisites.
 8. Once you have all the required keys, then move on to testing them with the scripts i made in the `<b>`single_python_setup_files_for_project `</b>` folder.
 9. Go into the folder `<b>`single_python_setup_files_for_project `</b>` and go through each one to test your connection is established and working, if you have your API keys, then you don't have to do this.
