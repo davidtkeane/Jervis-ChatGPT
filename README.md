@@ -42,13 +42,13 @@ The script continues with MongoDB integration for storing conversation logs, mod
 
 ## ⚾ Installation Help Files:
 
-<p> 1. Read the files in the <b>help_files</b> folder before hammering away to make this script work! Use the files in the <b>singel_python_setup_files_for_project</b> and use these one at a time to get working first, once all files work and return 'connection established' then you are ready to go, remember to add all keys to the .env file</p>
+<p>1. Read the files in the <b>help_files</b> folder before hammering away to make this script work! Use the files in the <b>singel_python_setup_files_for_project</b> and use these one at a time to get working first, once all files work and return 'connection established' then you are ready to go, remember to add all keys to the .env-clone file</p>
 
 <p>2. This is the **README.md** file to provide more information on how to use the program. You will have to sign up to Prerequisites for keys, ID's and API keys, see below for more details.</p>
 
-<p>3. Read the extra help files in the **help_files** folder for help with connecting to MongoDB and Gmail. The file **singel_python_setup_files_for_project.md** has extra setup information on the different parts from Mongo, Gmal, Elevenlabs, it can help you to connect to each service and test connection to Gmail, Elevenlabs and MongoDB if you have the correct API keys.</p>
+<p>3. Read the extra help files in the **help_files** folder for help with connecting to MongoDB and Gmail. The file **singel_python_setup_files_for_project.md** has extra setup information on the different parts from Mongodb, Gmail, Elevenlabs, it can help you to connect to each service and test connection to Gmail, Elevenlabs and MongoDB if you have the correct API keys.</p>
 
-<p>4. Add the keys to the .env file insdie the folder **singel_python_setup_files_for_project** and leave the structure as it is.</p>
+<p>4. Add the keys to the .env-clone file inside the folder **singel_python_setup_files_for_project** and leave the structure as it is.</p>
 
 <p>Read the other instructions in the <b>help_files</b> for more information on how to use the program.</p>
 
@@ -77,18 +77,18 @@ The script continues with MongoDB integration for storing conversation logs, mod
 
 ### 🏀 Signup to Gmail, Elevenlabs, MongDB:
 
-<p>There are instsructions in the <b>help_files</b> folder and the file called <b># Jervis Install instructions in more detail.md</b> will have more detailed instructions on how to connect to gmail and mongdb
+<p>There are instructions in the <b>help_files</b> folder and the file called <b># Jervis Install instructions in more detail.md</b> will have more detailed instructions on how to connect to gmail and mongodb</p>
 
 <p>You will have to sign up to:</p>
 
 <ul>
-  <li>OpenAI - <a href="https://platform.openai.com/">https://platform.openai.com/</a> - This has a small charge everytime, but 5 USD lasts me a month with normal usage, if you go mad, it can get expensive.</li>
+  <li>OpenAI - <a href="https://platform.openai.com/">https://platform.openai.com/</a> - This has a small charge every time, but 5 USD lasts me a month with normal usage, if you go mad, it can get expensive.</li>
   <li>MongoDB Online Database - <a href="https://www.mongodb.com/">https://www.mongodb.com/</a> - This is free</li>
   <li>ElevenLabs - <a href="https://elevenlabs.io/">https://elevenlabs.io/</a> - There is a free version with voices or pay and clone your own to use.</li>
   <li>Gmail - <a href="https://www.google.com/gmail/">https://www.google.com/gmail/</a> - This is free</li>
 </ul>
 
-<p>You will need to get API keys and Voice Id and put them into the .env file. Just replace Your with your info. Leave the structure the way it is, just replace the Your sections. In the test files, you will have to enter the API''s manually, as there is no .env key in this folder and the scripts do not look for this file to check for private information. Once all the test files are working and all API info entered into the .env file, we are ready to rumble.</p>
+<p>You will need to get API keys and Voice Id and put them into the .env-clone file. Just replace Your with your info. Leave the structure the way it is, just replace the Your sections. In the test files, you will have to enter the API''s manually, as there is no .env-clone key in this folder and the scripts do not look for this file to check for private information. Once all the test files are working and all API info entered into the .env-clone file, we are ready to rumble.</p>
 
 # 🚀 Installation Steps
 
@@ -98,12 +98,17 @@ The script continues with MongoDB integration for storing conversation logs, mod
 4. Install the modules pip install -m requirements.txt
 5. python install_jervis.py
 6. install_jervis.bat
-7. Now signup or sign back into Prerequisites.
-8. Once you have all the required keys, then move on to testing them with the scripts i made in the `<b>`singel_python_setup_files_for_project `</b>` folder.
-9. Go into the folder `<b>`singel_python_setup_files_for_project `</b>` and go through each one to test your connection is established and working, if you have your api keys, then you don't have to do this.
-10. Add all keys to the .env file inside the `<b>`singel_python_setup_files_for_project `</b>` folder as you go along.
-11. Once you have tested all the files, and added the keys and stuff into the .env file.
-12. Copy the .env file into the main folder `<b>jervis_ChatGPT</b>` then we are ready to run the jervis.py
+7. Now sign-up or sign back into Prerequisites.
+8. Once you have all the required keys, then move on to testing them with the scripts i made in the `<b>`single_python_setup_files_for_project `</b>` folder.
+9. Go into the folder `<b>`single_python_setup_files_for_project `</b>` and go through each one to test your connection is established and working, if you have your API keys, then you don't have to do this.
+10. Add all keys to the .env-clone file inside the `<b>`single_python_setup_files_for_project `</b>` folder as you go along.
+11. Once you have tested all the files, and added the keys and stuff into the .env-clone file.
+12. Copy the .env-clone file into the main folder `<b>jervis_ChatGPT</b>` then we are ready to run the jervis.py
+13. Once all scripts have been run, and files have appeared in the test folder for conformation and you have filled up the .env-clone.
+14. Copy this file to the main jervis-ChatGPT folder with the file jervis.py, and rename .env-clone to .env
+15. python jervis.py ( add the switches )
+
+16. I use <b>python jervis.py --voice elevenlabs --save</b> command to record the conversation and also to email it to my gmail account.
 
 # 📖 Command --switches
 
@@ -185,3 +190,23 @@ Command Examples:
   <pre><code>python jervis.py --help</code></pre>
   <p><b>Description:</b> This will display the help message.</p>
 </div>
+
+# 📝 Error Logging
+
+If an error occurs during the execution of the script, the error message and the line of code that caused the error will be written to the `error.log` file.
+
+# 🏴‍☠️ Upgrade Ideas and Suggestions
+
+Use the Docker file to build a Docker image and run the program in a container.
+
+# 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+# 📞 Contact
+
+If you have any questions, feel free to reach out to me at rangersmyth.74@gmail.com
