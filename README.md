@@ -28,7 +28,11 @@ The script logs errors and exceptions to a file and also logs the conversation h
 
 The script also includes a function to send emails with an optional attachment, which can be used to send the conversation history as an MP3 file.
 
-The script starts with a conversation loop where it listens for user input, processes the input, generates a response, and speaks the response. The conversation continues until the user says "goodbye".
+The script starts with a conversation loop where it listens for user input, processes the input, generates a response, and speaks the response.
+
+I use <b>python jervis.py --voice elevenlabs --save</b> command to record the conversation and also to email it to my gmail account.
+
+The conversation continues until the user says "goodbye".
 
 ## 🍔 Advanced Summary:
 
