@@ -6,6 +6,14 @@ This Python script is for a voice interface chatbot named Jervis. It uses OpenAI
 ![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/jervis-ChatGPT?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues-raw/davidtkeane/jervis-ChatGPT?style=flat-square)
 
+### Languages
+[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/davidtkeane)
+
+### OS
+[![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/davidtkeane)
+[![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/davidtkeane)
+
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49094051/227788148-a8ff8e06-86a4-41a6-aa53-8b7d6855360c.png"/>
   <br>
@@ -16,7 +24,38 @@ This Python script is for a voice interface chatbot named Jervis. It uses OpenAI
   This is another version of Jervis called Jarvis by Gia-Guar, similar but a little different
 </p>
 
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/jervis-ChatGPT?style=for-the-badge)
+
+
+<h1 align="center">Hi, guys! <img src="https://github.com/FujiwaraChoki/FujiwaraChoki/blob/main/assets/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif" width="28px" alt="👋"></h1>
+
+<p align="center">
+    <b>Welcome to my page!</b><br><br>
+    <i>
+        I'm FujiwaraChoki (internet name), and I'm currently learning DL, Automation, Ruby and C++ (and C).<br>
+        Open to collaborating on interesting and innovative projects.<br>
+    </i><br>
+    <h2 align="center">Request a Service</h2>
+    <p align="center">I build stuff for the web or your local computer, just send me an <a href="mailto:fujicodes@proton.me">E-Mail</a> to see how I can help you.</p><br />
+</p>
+
+<p align="center">
+  <img src="https://count.getloli.com/get/@fujiwarachoki?theme=gelbooru" />
+</p>
+
+<div align="center">
+<a href="https://github.com/davidtkeane" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>
+<a href="https://twitter.com/davidtkeane" target="_blank">
+<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
+</a>
+<a href="https://linkedin.com/in/sami-hindi-b31435248/" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
+</div>
+
 
 # 🧐 About:
 
@@ -103,10 +142,10 @@ The script continues with MongoDB integration for storing conversation logs, mod
 4. Install the modules pip install -m requirements.txt
 5. python install_jervis.py
 6. install_jervis.bat
+7. Now sign-up or sign back into Prerequisites.
 
 ## 🚀 Prerequisites Steps
 
-7. Now sign-up or sign back into Prerequisites.
 8. Once you have all the required keys, then move on to testing them with the scripts i made in the `<b>`single_python_setup_files_for_project `</b>` folder.
 9. Go into the folder `<b>`single_python_setup_files_for_project `</b>` and go through each one to test your connection is established and working, if you have your API keys, then you don't have to do this.
 10. Add all keys to the .env-clone file inside the `<b>`single_python_setup_files_for_project `</b>` folder as you go along.
