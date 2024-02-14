@@ -105,11 +105,7 @@ The script continues with MongoDB integration for storing conversation logs, mod
 11. Once you have tested all the files, and added the keys and stuff into the .env file.
 12. Copy the .env file into the main folder `<b>jervis_ChatGPT</b>` then we are ready to run the jervis.py
 
-# 📖 Usage of --switches
-
-## Examples:
-
-<h2>Command Switches:</h2>
+# 📖 Command --switches
 
 <table>
   <tr>
@@ -150,12 +146,36 @@ The script continues with MongoDB integration for storing conversation logs, mod
   </tr>
 </table>
 
-<h2>Command Examples:</h2>
+# 🐂 Examples of Commands:
 
-<ul>
-  <li><code>python main.py --voice elevenlabs</code> or <code>python main.py --voice local --save --email-n</code> - This will save the conversation to an MP3 file and won't email the conversation to a specified email address.</li>
-  <li><code>python main.py --voice elevenlabs</code> or <code>python main.py --voice local --save</code> - This will use the local computers voice and save the conversation to an MP3 file and email the conversation to a specified email address.</li>
-  <li><code>python main.py --voice elevenlabs</code> or <code>python main.py --voice local</code> - This will use the local computers voice and won't save the conversation to an MP3 file and will email the conversation to a specified email address.</li>
-  <li><code>python main.py --voice elevenlabs</code> or <code>python main.py --voice elevenlabs</code> - This will use the ElevenLabs voice and won't save the conversation to an MP3 file and will email the conversation to a specified email address.</li>
-  <li><code>python main.py --help</code> - This will display the help message.</li>
-</ul>
+Command Examples:
+
+<div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;">
+  <p><b>Command:</b></p>
+  <pre><code>python jervis.py --voice elevenlabs</code></pre>
+  <p><b>Description:</b> This will use the ElevenLabs voice, save the conversation to an MP3 file, but won't email the conversation to a specified email address.</p>
+</div>
+
+<div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;">
+  <p><b>Command:</b></p>
+  <pre><code>python jervis.py --voice local --save</code></pre>
+  <p><b>Description:</b> This will use the local computer's voice, save the conversation to an MP3 file, and email the conversation to a specified email address.</p>
+</div>
+
+<div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;">
+  <p><b>Command:</b></p>
+  <pre><code>python jervis.py --voice local</code></pre>
+  <p><b>Description:</b> This will use the local computer's voice, won't save the conversation to an MP3 file, but will email the conversation to a specified email address.</p>
+</div>
+
+<div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;">
+  <p><b>Command:</b></p>
+  <pre><code>python jervis.py --voice elevenlabs</code></pre>
+  <p><b>Description:</b> This will use the ElevenLabs voice, won't save the conversation to an MP3 file, but will email the conversation to a specified email address.</p>
+</div>
+
+<div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;">
+  <p><b>Command:</b></p>
+  <pre><code>python jervis.py --help</code></pre>
+  <p><b>Description:</b> This will display the help message.</p>
+</div>
