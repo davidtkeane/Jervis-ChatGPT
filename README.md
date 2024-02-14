@@ -12,10 +12,8 @@ This Python script is for a voice interface chatbot named Jervis. It uses OpenAI
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49094051/227788148-a8ff8e06-86a4-41a6-aa53-8b7d6855360c.png"/>
   <span style=color:grey> <i>Image by MidJourney AI </i> </span>
-  <span style=color:grey> <url>Image by MidJourney AI </url> </span>
+  <span style=color:grey> <url>https://github.com/gia-guar/JARVIS-ChatGPT/tree/main</url> </span>
 </p>
-
-![Image by MidJourney AI by] https://github.com/gia-guar/JARVIS-ChatGPT/tree/main
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/jervis-ChatGPT?style=for-the-badge)
 
