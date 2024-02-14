@@ -32,7 +32,7 @@ The script starts with a conversation loop where it listens for user input, proc
 
 I use <b>python jervis.py --voice elevenlabs --save</b> command to record the conversation and also to email it to my gmail account.
 
-The conversation continues until the user says "goodbye".
+The conversation continues until the user says <b>"goodbye"</b>.
 
 ## 🍔 Advanced Summary:
 
