@@ -30,7 +30,7 @@ The script also includes a function to send emails with an optional attachment, 
 
 The script starts with a conversation loop where it listens for user input, processes the input, generates a response, and speaks the response. The conversation continues until the user says "goodbye".
 
-## Advanced Summary:
+## 🍔 Advanced Summary:
 
 The script continues with MongoDB integration for storing conversation logs, modifying the send_email function to use environment variables for email credentials and to handle attachments. It then enters a conversation loop, using speech recognition to convert user speech to text and processing it. The script handles various commands and exceptions, including a 'goodbye' command to end the conversation. It also includes error handling and logging, with the capability to test error logging by raising an exception.
 
@@ -40,43 +40,30 @@ The script continues with MongoDB integration for storing conversation logs, mod
 
 # 🆘 Help
 
-<h2>Installation instructions:</h2>
+## ⚾ Installation Help Files:
 
-<p>Read the <b>README.md</b> file for more information on how to use the program. You will have to sign up to Prerequisites for keys, ID@s and API keys, see below and README.txt. Read the extra files in the <b>help_files</b> folder for helps on connecting to MongoDB and Gmail. Read the file in the <b>help_files</b> folder called <b>singel_python_setup_files_for_project.md</b>. This file has extra setup information on the different parts from Mongo, Gmal, Elevenlabs. I added as much details as I can to help setting up each section as easy as possible.</p>
+<p>This is the <b>README.md</b> file to provide more information on how to use the program. You will have to sign up to Prerequisites for keys, ID's and API keys, see below for more details.</p>
+<p></p>
+<p>Read the extra help files in the <b>help_files</b> folder for help with connecting to MongoDB and Gmail. The file <b>singel_python_setup_files_for_project.md</b> has extra setup information on the different parts from Mongo, Gmal, Elevenlabs, it can help you to connect to each service and test connection to Gmail, Elevenlabs and MongoDB if you have the correct API keys.</p>
+<p></p>
+<p> Add the keys to the .env file insdie the folder <b>singel_python_setup_files_for_project</b> and leave the structure as it is.</p>
+<p> One file might need you to add you key to the top of the script, but also add it to the .env file as the jervis.py reads all keys from the .env file in the main section</b>
+<p></p>
+<p> I added as much details as I can to help setting up each section as easy as possible.</p>
 
-<p>Read the other instructions in the code for more information on how to use the program in the instructions folder.</p>
+<p>Read the other instructions in the <b>help_files</b> for more information on how to use the program.</p>
 
-<h2>Files required to run the program located in help_files_for_project folder:</h2>
-
-<p>Read the <b>help_files_for_project</b> folder for the required files to run the program. Read the <b>.env</b> file for the environment variables required to run the program. Read the <b>requirements.txt</b> file inside the instructions folder to install the required libraries and versions to run the program. There is a setup guide for Gmail and MongoDB Atlas in the instructions folder. There is a file called <b>jervis_project_creation_stages.md</b> that outlines the stages of the project creation. Use this as a guide to create your own project. There is a file called <b>instructions_help_files_for_project_explained.md</b> that explains the help files for the project in the folder help_files_for_project.</p>
-
-<h2>3 ways to install the required libraries to run the program:</h2>
+## 💻 Modules Installation instructions:
 
 <ol>
+  <p>3 ways to install the required libraries to run the program:</p>
   <li>Option 1: Install using the requirements.txt file for the required libraries and versions to run the program. <code>pip install -r requirements.txt</code></li>
   <li>Option 2: Run the install_jervis.bat file to install the required libraries and versions to run the program. <code>install_jervis.bat</code></li>
   <li>Option 3: Run the install_jervis.py file to install the required libraries and versions to run the program. <code>python install_jervis.py</code></li>
 </ol>
 
-<ol>
-  <li>chatbot</li>
-  <li>voice-interface</li>
-  <li>openai</li>
-  <li>gpt-3.5-turbo</li>
-  <li>python</li>
-  <li>speech-recognition</li>
-  <li>text-to-speech</li>
-  <li>mongodb</li>
-  <li>email</li>
-  <li>mp3</li>
-  <li>pyttsx3</li>
-  <li>argparse</li>
-  <li>logging</li>
-  <li>dotenv</li>
-  <li>pymongo</li>
-  <li>smtplib</li>
-  <li>elevenlabs</li>
-  <li>speech-to-text</li>
-  <li>audio-processing</li>
-  <li>api-integration</li>
-</ol>
+## 🚀 Installation Steps
+
+1. Clone this repository to your local machine using `git clone <repo-link>`.
+2. 
+3.
