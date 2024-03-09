@@ -8,17 +8,19 @@ This Python script is for a voice interface chatbot named Jervis. It uses OpenAI
 ![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/jervis-ChatGPT?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues-raw/davidtkeane/jervis-ChatGPT?style=flat-square)
 
-Languages
+<b>Languages</b>
+
 [![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/davidtkeane)
 
-OS
+<b>OS</b>
+
 [![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/davidtkeane)
 [![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/davidtkeane)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49094051/227788148-a8ff8e06-86a4-41a6-aa53-8b7d6855360c.png"/>
   <br>
-  <i>Image by MidJourney AI</i>
+  <i>Image by MidJourney AI by Gia-Guar</i>
   <br>
   <a href="https://github.com/gia-guar/JARVIS-ChatGPT/tree/main">This is the URL to the image</a>
   <br>
@@ -112,7 +114,7 @@ The script continues with MongoDB integration for storing conversation logs, mod
 
 ## 🥷Prerequisites:
 
-### 🏀 Signup to Gmail, Elevenlabs, MongDB:
+### 🏀 Signup to Gmail, Elevenlabs, MongDB and OpenAI:
 
 
 <p>There are instructions in the <b>help_files</b> folder and the file called <b># Jervis Install instructions in more detail.md</b> will have more detailed instructions on how to connect to gmail and mongodb</p>
